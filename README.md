@@ -62,6 +62,8 @@ This task measures **attributional style** by presenting positive and negative s
 Participants choose likely causes for each event, revealing cognitive patterns related to self vs. external attribution.  
 The demo below shows an example instruction page and trial sequence.
 
+![Attribution Task Demo](images/attribution_demo.gif)
+
 ---
 
 > ⚠️ *Note:* These animations are for demonstration only and contain English annotations.  
