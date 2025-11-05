@@ -1,30 +1,85 @@
-# Cognitive Behavioral Therapy Tasks (Chinese Adaptation)
+# CBT Tasks (Chinese Adaptation)
 
-This repository contains **Chinese-localized versions** of two experimental tasks originally developed by Norbury et al. (2024, *Science Advances*) for studying cognitive mechanisms underlying components of cognitive-behavioral therapy (CBT).
+This repository contains a **localized and adapted version** of two cognitive tasks originally developed by Norbury et al. (2024, *Science Advances*) to study how components of cognitive-behavioral therapy (CBT) affect underlying cognitive mechanisms.
+This adaptation includes full **Chinese localization**, **interface redesign**, and integration with a custom backend (not included in this demo) 
+for use in clinical populations (depression and schizophrenia).
 
-Original paper:  
-Norbury, A., Hauser, T.U., Fleming, S.M., Dolan, R.J., & Huys, Q.J.M. (2024). *Different components of cognitive-behavioral therapy affect specific cognitive mechanisms.* Science Advances, 10, eadk3222. [https://doi.org/10.1126/sciadv.adk3222](https://doi.org/10.1126/sciadv.adk3222)
+🧩 **Original paper:**  
+Norbury, A., Hauser, T. U., Fleming, S. M., Dolan, R. J., & Huys, Q. J. M. (2024).  
+*Different components of cognitive-behavioral therapy affect specific cognitive mechanisms.*  
+*Science Advances, 10*, eadk3222. [DOI: 10.1126/sciadv.adk3222](https://doi.org/10.1126/sciadv.adk3222)
 
 ---
 
 ## Overview
-The project includes:
-1. **Goal-Setting Game** — a gamified reward–effort decision-making task based on behavioral activation therapy principles.  
-2. **Causal Attribution Test** — a scenario-based attribution task adapted from the cognitive restructuring component of cognitive therapy.
 
-This repository provides **Chinese-language versions** of these tasks, adapted for local research use and integrated with a backend for data collection.
+Two experimental tasks are included:
+
+1. 🎯 **Goal-Setting Game** — a gamified reward–effort decision-making task based on behavioral activation therapy.  
+2. 💭 **Causal Attribution Task** — a scenario-based attribution task based on cognitive restructuring therapy.
+
+These tasks were adapted and extended for **Chinese-speaking participants** and are used to study **cognitive and behavioral mechanisms of CBT** in **depression and schizophrenia**.
 
 ---
 
 ## My Contributions
-- Translated all front-end materials and instructions into **Chinese** to support experiments with Chinese-speaking participants.
-- Implemented a **custom backend server** to securely log behavioral and demographic data.
-- Adapted both tasks for research with **clinical populations (major depression and schizophrenia)** to investigate how cognitive and behavioral components of CBT differentially influence underlying cognitive mechanisms.
+- Translated and localized all task interfaces and instructions into **Chinese**, ensuring cultural and linguistic accuracy for participant comprehension.  
+- Developed a **LeanCloud-based backend system** for secure behavioral data storage and experiment management.  
+- Adapted both experimental tasks for research use with **clinical populations** (depression and schizophrenia), enabling cross-cultural investigation of CBT-related cognitive mechanisms.
+
+---
+
+## Task demonstrations
+
+🔗 **Demo links:**  
+- Original (English): [Reward–Effort Task](https://modcomp-i1.web.app/) · [Attribution Task](https://modcomp-ca2.web.app/)  
+- Adapted (Chinese): https://xyzhang2312.github.io/cbt-test-cn/
+---
+
+###  1. Menu and Participant Info Page
+
+This demo shows the initial interface where participants select between tasks  
+and (in the research version) provide demographic information before beginning.  
+The public demo version disables data submission for privacy.
+
+![Menu and Info Form Demo](images/home_pages.gif)
+
+---
+
+###  2. Goal-Setting Game
+
+This task assesses **reward–effort decision-making**.  
+Participants decide whether to exert effort for potential rewards, learning optimal strategies through feedback.  
+The animation below illustrates a sample trial.
+
+![Goal-Setting Game Demo](images/game_demo.gif)
+
+---
+
+###  3. Causal Attribution Task
+
+This task measures **attributional style** by presenting positive and negative scenarios.  
+Participants choose likely causes for each event, revealing cognitive patterns related to self vs. external attribution.  
+The demo below shows an example instruction page and trial sequence.
+
+---
+
+> ⚠️ *Note:* These animations are for demonstration only and contain English annotations.  
+> No behavioral data are collected in this public version.  
+> Each task is fully implemented with timing precision and response handling in the research version.
+
+---
+
+## Tech Stack
+
+**Frontend:** JavaScript (Phaser 3), HTML5  
+**Backend:** LeanCloud (JavaScript SDK / REST API)  
+**Deployment:** GitHub Pages + LeanCloud cloud functions
 
 ---
 
 ## Acknowledgment
-- Original task design and theoretical framework by **Norbury et al., 2024**.  
-- Original code and demo links available at [https://github.com/agnesnorbury/cognitive-mechanisms-psychotherapy](https://github.com/agnesnorbury/cognitive-mechanisms-psychotherapy).
 
-Please cite the original paper if using the task for research or educational purposes.
+Original design and theoretical framework by **Norbury et al. (2024)**, University College London.  
+Original open-source code: [agnesnorbury/cognitive-mechanisms-psychotherapy](https://github.com/agnesnorbury/cognitive-mechanisms-psychotherapy).  
+This adaptation is for educational and research demonstration purposes only.
