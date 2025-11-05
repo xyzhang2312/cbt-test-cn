@@ -42,7 +42,7 @@ This demo shows the initial interface where participants select between tasks
 and (in the research version) provide demographic information before beginning.  
 The public demo version disables data submission for privacy.
 
-![Menu and Info Form Demo](images/home_pages.gif)
+![Menu and Info Form Demo](images/home.gif)
 
 ---
 
